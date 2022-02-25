@@ -11,7 +11,6 @@ import random
 import sys
 import shelve
 import time
-import pygame
 
 
 # Takes input from the user and makes sure it's a number within a valid range
@@ -547,8 +546,6 @@ def load_files():
 
 # sets each variable to it's value using the load function
 cleared_stages, _hp, _atk, _gold, _items, _armor_hp, _boot_hp, _sword_atk = load_files()
-pygame.init()
-
 # Game loop (Main menu)
 while True:
 
